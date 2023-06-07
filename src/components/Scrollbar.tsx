@@ -14,9 +14,12 @@ const Scrollbar = ({
   ...otherProps
 }: ScrollbarProps) => {
   return (
+    <>
+
     <SimpleBar className={className} style={style} {...otherProps}>
       {children}
     </SimpleBar>
+    </>
   );
 };
 
