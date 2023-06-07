@@ -53,11 +53,11 @@ const TextualInput = ({
         {...otherProps}
       ></Form.Control>
 
-      {errors && errors[name] ? (
+      {/* {errors && errors[name] ? (
         <Form.Control.Feedback type="invalid" className="d-block">
           {errors[name]["message"]}
         </Form.Control.Feedback>
-      ) : null}
+      ) : null} */}
     </>
   );
 };
@@ -92,11 +92,11 @@ const CheckInput = ({
         {...otherProps}
       />
 
-      {errors && errors[name] ? (
+      {/* {errors && errors[name] ? (
         <Form.Control.Feedback type="invalid">
           {errors[name]["message"]}
         </Form.Control.Feedback>
-      ) : null}
+      ) : null} */}
     </>
   );
 };
@@ -131,11 +131,11 @@ const SelectInput = ({
         {...otherProps}
       />
 
-      {errors && errors[name] ? (
+      {/* {errors && errors[name] ? (
         <Form.Control.Feedback type="invalid">
           {errors[name]["message"]}
         </Form.Control.Feedback>
-      ) : null}
+      ) : null} */}
     </>
   );
 };
