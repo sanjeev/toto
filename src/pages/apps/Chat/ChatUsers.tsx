@@ -135,7 +135,7 @@ const ChatUsers = ({ onUserSelect }: ChatUsersProps) => {
           </div>
 
           <div className="pe-2">
-            <Scrollbar style={{ height: "549px", width: "100%" }}>
+            <Scrollbar style={{ height: "549px", width: "100%" }} className=''>
               {(user || []).map((user, index) => {
                 return (
                   <Link

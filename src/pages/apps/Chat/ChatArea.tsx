@@ -362,7 +362,7 @@ const ChatArea = ({ selectedUser }: ChatAreaProps) => {
           <ChatHeader selectedUser={selectedUser} />
 
           <div className="mt-1">
-            <Scrollbar style={{ height: "509px", width: "100%" }}>
+            <Scrollbar style={{ height: "509px", width: "100%" }} className=''>
               <ul className="conversation-list px-0 h-100">
                 {(chatHistory || []).map((item, index) => {
                   return (

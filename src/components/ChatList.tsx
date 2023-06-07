@@ -229,7 +229,7 @@ const ChatList = (props: ChatListProps) => {
 
           <div className="chat-conversation">
             {/* chat messages */}
-            <Scrollbar style={{ maxHeight: "314px", width: "100%" }}>
+            <Scrollbar style={{ maxHeight: "314px", width: "100%" }} className="">
               <ul className={classNames("conversation-list", props.className)}>
                 {(messages || []).map((message, i) => {
                   return (

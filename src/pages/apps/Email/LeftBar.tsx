@@ -46,7 +46,7 @@ const ChatBox = () => {
       </div>
 
       <div className="chat-conversation p-2">
-        <Scrollbar style={{ maxHeight: "220px" }}>
+        <Scrollbar style={{ maxHeight: "220px" }} className=''>
           <ul className="conversation-list">
             <li className="text-center">
               <span className="badge text-secondary">Today</span>

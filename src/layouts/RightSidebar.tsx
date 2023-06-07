@@ -59,6 +59,7 @@ const RightSideBar = (props: RightSideBarProps) => {
           style={{ maxHeight: "100%", zIndex: 10000 }}
           timeout={500}
           scrollbarMaxSize={320}
+          className=''
         >
           <ThemeCustomizer />
         </Scrollbar>

@@ -17,7 +17,7 @@ const Scrollbar = ({
 
 
     <SimpleBar className={className} style={style} {...otherProps}>
-       <>{children} </>
+ {children}
     </SimpleBar>
 
   );
