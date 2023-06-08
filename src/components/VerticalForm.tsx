@@ -3,11 +3,14 @@ import { useForm, Resolver, SubmitHandler } from "react-hook-form";
 
 interface VerticalFromProps<TFormValues> {
   defaultValues?: any;
-  resolver?: Resolver<TFormValues>;
+  resolver?: any;
   children?: any;
   onSubmit: SubmitHandler<TFormValues>;
   formClass?: string;
 }
+
+
+
 
 const VerticalForm = <
   TFormValues extends Record<string, any> = Record<string, any>
