@@ -156,7 +156,7 @@ const MainMenu = ({
       {activeMenuItems && (
         <div className="sidebar-main-menu">
           <div id="two-col-menu" className="h-100">
-            <Scrollbar style={{ maxHeight: "100%" }} className=''>
+            <Scrollbar style={{ maxHeight: "100%" }}>
               {(menuItems || []).map((menuItem, key) => {
                 const activeParent =
                   activeMenuItems &&

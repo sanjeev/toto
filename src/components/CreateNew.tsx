@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Dropdown } from "react-bootstrap";
 import classNames from "classnames";
-import logoDark from "../assets/images/T3dr.png";
+
 interface CreateNewProps {
   otherOptions: {
     id: number;
@@ -23,9 +23,8 @@ const CreateNew = ({ otherOptions }: CreateNewProps) => {
 
   return (
     <>
-    <img src={logoDark} alt="" height="50"  style={{margin:'10px'}}/>
       <Dropdown show={dropdownOpen} onToggle={toggleDropdown}>
-        {/* <Dropdown.Toggle
+        <Dropdown.Toggle
           id="dropdown-notification"
           as="a"
           onClick={toggleDropdown}
@@ -34,7 +33,7 @@ const CreateNew = ({ otherOptions }: CreateNewProps) => {
           })}
         >
           Create New <i className="uil uil-angle-down"></i>
-        </Dropdown.Toggle> */}
+        </Dropdown.Toggle>
         <Dropdown.Menu className="dropdown-menu">
           <div onClick={toggleDropdown}>
             {(otherOptions || []).map((item, index) => {

@@ -81,8 +81,6 @@ const Charts = React.lazy(() => import("../pages/charts/"));
 const BasicTables = React.lazy(() => import("../pages/tables/Basic"));
 const AdvancedTables = React.lazy(() => import("../pages/tables/Advanced"));
 
-// maps
-
 
 
 export interface RoutesProps {
@@ -129,7 +127,7 @@ const calendarAppRoutes: RoutesProps = {
   path: "/apps/calendar",
   name: "Calendar",
   route: PrivateRoute,
-  roles: ["Marketing"],
+  roles: ["Admin"],
   icon: "calendar",
   element: <CalendarApp />,
   header: "Apps",

@@ -15,7 +15,6 @@ import "./assets/scss/Theme.scss";
 configureFakeBackend();
 
 const App = () => {
-
   return (
     <>
       <React.Fragment>

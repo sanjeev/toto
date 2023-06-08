@@ -3,7 +3,6 @@ import { Card, Dropdown } from "react-bootstrap";
 
 // components
 
-
 const SessionbyLocations = () => {
   // vector map config
   const options = {
@@ -140,7 +139,9 @@ const SessionbyLocations = () => {
 
         <h4 className="card-title header-title">Session by Locations</h4>
 
+        <div className="my-3">
 
+        </div>
       </Card.Body>
     </Card>
   );

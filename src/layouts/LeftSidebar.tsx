@@ -152,7 +152,6 @@ const LeftSidebar = ({ isCondensed }: LeftSidebarProps) => {
             style={{ maxHeight: "100%" }}
             timeout={500}
             scrollbarMaxSize={320}
-            className=''
           >
             <SideBarContent />
           </Scrollbar>

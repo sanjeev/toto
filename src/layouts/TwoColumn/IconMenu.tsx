@@ -49,7 +49,6 @@ const IconMenu = ({ menuItems, toggleMenu, activeMenuItems }: AppMenuProps) => {
           style={{ maxHeight: "100%" }}
           timeout={500}
           scrollbarMaxSize={320}
-          className=''
         >
           <Link to="/" className="logo">
             <span>

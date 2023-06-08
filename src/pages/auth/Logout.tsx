@@ -53,7 +53,7 @@ const BottomLink = () => {
   return (
     <Row className="mt-3">
       <Col xs={12} className="text-center">
-        <p className="text-muted colorback">
+        <p className="text-muted">
           {t("Back to")}{" "}
           <Link to={"/auth/login"} className="text-primary fw-bold ms-1">
             {t("Sign In")}
@@ -79,13 +79,13 @@ const Logout = () => {
           <div className="auth-logo mx-auto">
             <Link to="/" className="logo logo-dark text-center">
               <span className="logo-lg">
-                <img src={logoDark} alt="" height="50" />
+                <img src={logoDark} alt="" height="24" />
               </span>
             </Link>
 
             <Link to="/" className="logo logo-light text-center">
               <span className="logo-lg">
-                <img src={logoLight} alt="" height="50" />
+                <img src={logoLight} alt="" height="24" />
               </span>
             </Link>
           </div>
